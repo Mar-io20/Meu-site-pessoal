@@ -1,0 +1,99 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    list-style: none;
+}
+
+.menu {
+    width: 100%;
+    height: 59px;
+    background-color: #fff;
+    display: inline-block;
+    border-bottom: solid 1px #000 ;
+}
+
+#linkmenu li a{
+    float: left;
+    padding: 19px;
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#linkmenu li a:hover {
+    color: #57CC99;
+}
+
+.btnMenu {
+    background: #80ED99;
+    position: relative;
+    width: 10%;
+    height: 34px;
+    margin: 15px 20px;
+    text-align: center;
+    float: right;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+.btnMenu:hover {
+    background: #fff;
+    border: solid 3px #80ED99;
+}
+
+.btnConteudo {
+    background: #80ED99;
+    position: relative;
+    width: 100px;
+    height: 34px;
+    margin: 35px 0;
+    text-align: center;
+    float: right;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.btnConteudo:hover {
+    background: #fff;
+    border: solid 3px #80ED99;
+}
+
+#fotoM {
+    width: 350px;
+    height: 350px;
+}
+
+main.cards {
+    display: flex;
+    justify-content: center;
+    color: #434343;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem;
+}
+
+main.cards section.card {
+    display: flex;
+    flex-direction: column;
+    align-items: initial;
+    padding: 0px 50px;
+}
+
+main.cards section.card h2 {
+    margin: 20px 0;
+    margin-top: 50px;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+main.cards section.card span {
+    font-weight: 500;
+    max-width: 270px;
+    font-size: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
